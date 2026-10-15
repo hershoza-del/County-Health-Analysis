@@ -1,4 +1,4 @@
-# County Health Disparities: Race, Rurality, and Overdoses
+# County Health Analysis
 
 An analysis of 2025 County Health Rankings data for 3,000+ U.S. counties using Python (pandas), SQL, and R.
 
@@ -12,13 +12,11 @@ An analysis of 2025 County Health Rankings data for 3,000+ U.S. counties using P
 
 Source: County Health Rankings & Roadmaps, University of Wisconsin Population Health Institute (2025 analytic dataset), countyhealthrankings.org
 
-The raw file has 796 columns. This project keeps 16 of them. The raw CSV is not included; the cleaned file (County_Health.csv) is.
-
 ## Approach
 
 - Python (pandas): cleaning the data and creating charts
 - SQL: exploring and summarizing the data
-- R: statistical tests
+- R: running statistical tests
 
 ## Key Findings
 
@@ -30,4 +28,6 @@ The raw file has 796 columns. This project keeps 16 of them. The raw CSV is not 
 
 - Findings describe counties, not individuals.
 - Many small counties are missing data, especially for race-specific measures and overdose deaths.
+- Population was based from 2020-2022 data. 
 - These results show associations, not causes.
+- MOST IMPORTANTLY: these results are solely based from this dataset
