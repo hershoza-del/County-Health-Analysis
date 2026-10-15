@@ -12,7 +12,7 @@ Python (Pandas): cleaning/rearranging the dataset and creating charts based on t
 Excel: cross-checking the dataset with vlookups, xlookups, if(s) functions and creating a pivottable
 SQL: querying the questions I asked
 R: running statistical tests regarding the questions I asked
-
+ 
 Key Findings
 
 Median child poverty is 33.6% for Black children vs. 11.8% for White children, across 1,630 counties. Median household income differs by around $25,000.
