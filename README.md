@@ -15,11 +15,11 @@ R: running statistical tests regarding the questions I asked
 
 Key Findings
 
-Median child poverty is 33.6% for Black children vs. 11.8% for White children, across 1,630 counties. Median household income differs by about $25,000.
-Mostly rural counties have about half as many primary care physicians per person as mostly urban counties (38 vs. 79 per 100,000). Preventable hospital stays barely differ.
-West Virginia's overdose death rate is 78.0 per 100,000, the highest of any state and 2.6 times the rest of the U.S. (30.6).
+Median child poverty is 33.6% for Black children vs. 11.8% for White children, across 1,630 counties. Median household income differs by around $25,000.
+Mostly rural counties have about half as many primary care physicians per person as mostly urban counties (38 vs. 79 per 100,000). However, preventable hospital stays barely differ.
+West Virginia's overdose death rate is 78.0 per 100,000, the highest of any state in the U.S.
 
-Limitations
+Limitations and Disclaimers
 
 Findings describe counties, not individuals.
 Many small counties are missing data, especially for race-specific measures and overdose deaths.
