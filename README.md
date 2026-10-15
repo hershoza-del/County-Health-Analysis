@@ -1,4 +1,4 @@
-An analysis of 2025 County Health Rankings data for U.S. counties, using Python (Pandas), Excel, SQL, and R.
+An analysis of 2025 County Health Rankings data for U.S. counties, using Python (Pandas), Excel, SQL, and R. 
 
 Questions
 
