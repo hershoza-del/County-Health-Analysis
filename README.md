@@ -28,5 +28,3 @@ These results show associations, not causes.
 Data
 
 Source: County Health Rankings & Roadmaps, University of Wisconsin Population Health Institute (2025 analytic dataset), countyhealthrankings.org
-
-The raw file has 796 columns. This project keeps 16 of them. The raw CSV is not included; the cleaned file (County_Health_Analysis.csv) is.
