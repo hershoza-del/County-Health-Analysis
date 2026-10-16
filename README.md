@@ -1,6 +1,12 @@
 # County Health Analysis
 
-An analysis of 2025 County Health Rankings data for 3,000+ U.S. counties using Python (pandas), SQL, and R.
+An analysis of 2025 County Health Rankings data for 3,000+ U.S. counties.
+
+## Approach
+
+- Python (pandas): cleaning the data and creating charts for each question (charts can be found on my Hersh Oza LinkedIn page) 
+- SQL: exploring and summarizing the data for each question
+- R: running statistical tests for each question
 
 ## Questions
 
@@ -8,31 +14,21 @@ An analysis of 2025 County Health Rankings data for 3,000+ U.S. counties using P
 2. Do mostly rural counties have higher uninsured rates, fewer primary care physicians, and more preventable hospital stays than mostly urban counties?
 3. How does West Virginia's drug overdose death rate compare with the rest of the U.S.?
 
-## Data
-
-Source: County Health Rankings & Roadmaps, University of Wisconsin Population Health Institute (2025 analytic dataset), countyhealthrankings.org
-
-## Approach
-
-- Python (pandas): cleaning the data and creating charts for each question 
-- SQL: exploring and summarizing the data for each question
-- R: running statistical tests for each question
-
 ## Question 1 (Race)
 
-- Across the 1,630 counties that report both groups, median child poverty is 33.6% for Black children vs. 11.8% for White children. On average, the Black rate is 21.7 percentage points higher in the same county (95% CI: 20.8 to 22.6; p < 0.001).
-- Across 1,767 counties, Black median household income is $44,892 vs. $69,841 for White households (medians). On average, Black households earn $21,874 less in the same county (95% CI: $20,789 to $22,959; p < 0.001).
+- Across the 1,630 counties that report both groups, median child poverty is 33.6% for Black children vs. 11.8% for White children. On average, the Black rate is 21.7 percentage points higher in the same county.
+- Across 1,767 counties, Black median household income is $44,892 vs. $69,841 for White median households. On average, Black households earn $21,874 less in the same county.
 
 ## Question 2 (Rural)
 
-- Mostly rural counties have about 37% fewer primary care physicians: an average of 44 vs. 70 per 100,000 (p < 0.001). This gap remains after controlling for income.
-- Mostly rural counties have higher uninsured rates: 11.0% vs. 9.6% on average (p < 0.001). About two-thirds of this gap is explained by income; rural counties tend to be poorer.
-- Mostly rural counties have more preventable hospital stays: 2,905 vs. 2,693 per 100,000 Medicare enrollees on average (p < 0.001). However, this difference is driven by income. Comparing counties with the same median income, more rural counties have slightly fewer preventable stays.
+- Mostly rural counties have about 37% fewer primary care physicians: an average of around 44 vs. 70 per 100,000. This gap remains after controlling for income.
+- Mostly rural counties hoist a uninsured rate, but only by a little: 11.0% vs. 9.6% on average. About two-thirds of this gap is explained by income; rural counties tend to be poorer.
+- Mostly rural counties have slightly more preventable hospital stays: 2,905 vs. 2,693 per 100,000 people on average. However, this difference is driven by income. Comparing counties with the same median income, more rural counties have slightly fewer preventable stays.
 
 ## Question 3 (West Virginia)
 
 - West Virginia's statewide overdose death rate is 78.0 per 100,000, the highest of any state.
-- At the county level, West Virginia counties average 76.1 deaths per 100,000 vs. 31.8 for all other counties, about 2.4 times higher (p < 0.001 on both the t-test and Wilcoxon test).
+- At the county level, West Virginia counties average 76.1 deaths per 100,000 vs. 31.8 for all other counties, about 2.4 times higher.
 
 ## Limitations
 
@@ -43,3 +39,7 @@ Source: County Health Rankings & Roadmaps, University of Wisconsin Population He
 - These results show associations, not causes.
 - Population was based from 2020-2022 data. 
 - MOST IMPORTANTLY: these results are solely based from this dataset
+
+## Data Source
+
+County Health Rankings & Roadmaps, University of Wisconsin Population Health Institute (2025 analytic dataset), countyhealthrankings.org
