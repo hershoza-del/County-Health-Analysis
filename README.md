@@ -4,7 +4,7 @@ An analysis of 2025 County Health Rankings data for 3,000+ U.S. counties.
 
 ## Approach
 
-- Python (pandas): cleaning the data and creating charts for each question (charts can be found on my Hersh Oza LinkedIn page) 
+- Python (pandas and matplotlib): cleaning the data and creating charts for each question (charts can be found on my Hersh Oza LinkedIn page) 
 - SQL: exploring and summarizing the data for each question
 - R: running statistical tests for each question
 
