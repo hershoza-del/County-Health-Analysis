@@ -14,20 +14,32 @@ Source: County Health Rankings & Roadmaps, University of Wisconsin Population He
 
 ## Approach
 
-- Python (pandas): cleaning the data and creating charts
-- SQL: exploring and summarizing the data
-- R: running statistical tests
+- Python (pandas): cleaning the data and creating charts for each question 
+- SQL: exploring and summarizing the data for each question
+- R: running statistical tests for each question
 
-## Key Findings
+## Question 1 (Race)
 
-- Median child poverty is 33.6% for Black children vs. 11.8% for White children, across 1,630 counties. Median household income differs by about $25,000.
-- Mostly rural counties have about half as many primary care physicians per person as mostly urban counties (38 vs. 79 per 100,000). Preventable hospital stays barely differ.
-- West Virginia's overdose death rate is 78.0 per 100,000, the highest of any state and 2.6 times the rest of the U.S. (30.6).
+- Across the 1,630 counties that report both groups, median child poverty is 33.6% for Black children vs. 11.8% for White children. On average, the Black rate is 21.7 percentage points higher in the same county (95% CI: 20.8 to 22.6; p < 0.001).
+- Across 1,767 counties, Black median household income is $44,892 vs. $69,841 for White households (medians). On average, Black households earn $21,874 less in the same county (95% CI: $20,789 to $22,959; p < 0.001).
+
+## Question 2 (Rural)
+
+- Mostly rural counties have about 37% fewer primary care physicians: an average of 44 vs. 70 per 100,000 (p < 0.001). This gap remains after controlling for income.
+- Mostly rural counties have higher uninsured rates: 11.0% vs. 9.6% on average (p < 0.001). About two-thirds of this gap is explained by income; rural counties tend to be poorer.
+- Mostly rural counties have more preventable hospital stays: 2,905 vs. 2,693 per 100,000 Medicare enrollees on average (p < 0.001). However, this difference is driven by income. Comparing counties with the same median income, more rural counties have slightly fewer preventable stays.
+
+## Question 3 (West Virginia)
+
+- West Virginia's statewide overdose death rate is 78.0 per 100,000, the highest of any state.
+- At the county level, West Virginia counties average 76.1 deaths per 100,000 vs. 31.8 for all other counties, about 2.4 times higher (p < 0.001 on both the t-test and Wilcoxon test).
 
 ## Limitations
 
 - Findings describe counties, not individuals.
-- Many small counties are missing data, especially for race-specific measures and overdose deaths.
-- Population was based from 2020-2022 data. 
+- County averages weight every county equally regardless of population, so they differ slightly from statewide rates.
+- Many small counties are missing data, especially for race-specific measures and overdose deaths. Overdose rates are suppressed for 1,142 counties (36%), including 10 of West Virginia's 55 counties, so the county-level overdose comparison mostly reflects larger counties.
+- The race comparisons include only counties that report data for both groups, which leaves out many counties with small Black populations.
 - These results show associations, not causes.
+- Population was based from 2020-2022 data. 
 - MOST IMPORTANTLY: these results are solely based from this dataset
